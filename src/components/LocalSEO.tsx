@@ -1,13 +1,10 @@
-export default function StructuredData() {
-  const structuredData = {
+export default function LocalSEO() {
+  const localStructuredData = {
     "@context": "https://schema.org",
-    "@type": "Store",
+    "@type": "LocalBusiness",
     name: "Croxono Perfumes - Perfumes en Apartadó y Urabá",
-    description:
-      "Tienda especializada en perfumes de lujo y fragancias exclusivas para hombres y mujeres en Apartadó, Urabá y toda la región de Antioquia. Perfumes árabes originales, fragancias de diseñador, envío gratis.",
+    description: "Tienda de perfumes de lujo en Apartadó, Urabá y toda la región de Antioquia. Perfumes árabes originales, fragancias de diseñador, envío gratis.",
     url: "https://croxono-perfumes-4rnh.onrender.com",
-    logo: "https://croxono-perfumes-4rnh.onrender.com/assets/croxono-logo.jpeg",
-    image: "https://croxono-perfumes-4rnh.onrender.com/assets/hero-perfume.jpg",
     telephone: "+57 320 3296712",
     email: "contacto@croxono.com",
     address: {
@@ -59,47 +56,11 @@ export default function StructuredData() {
         name: "Arboletes",
         addressRegion: "Antioquia",
         addressCountry: "CO"
-      },
-      {
-        "@type": "City",
-        name: "San Pedro de Urabá",
-        addressRegion: "Antioquia",
-        addressCountry: "CO"
-      },
-      {
-        "@type": "City",
-        name: "Mutatá",
-        addressRegion: "Antioquia",
-        addressCountry: "CO"
-      },
-      {
-        "@type": "City",
-        name: "Vigía del Fuerte",
-        addressRegion: "Antioquia",
-        addressCountry: "CO"
-      },
-      {
-        "@type": "City",
-        name: "Murindó",
-        addressRegion: "Antioquia",
-        addressCountry: "CO"
-      },
-      {
-        "@type": "City",
-        name: "Dabeiba",
-        addressRegion: "Antioquia",
-        addressCountry: "CO"
-      },
-      {
-        "@type": "City",
-        name: "Frontino",
-        addressRegion: "Antioquia",
-        addressCountry: "CO"
       }
     ],
     openingHours: "Mo-Su 09:00-18:00",
     priceRange: "$$",
-    currenciesAccepted: "COP, USD",
+    currenciesAccepted: "COP",
     paymentAccepted: "Cash, Credit Card, Debit Card",
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -110,7 +71,7 @@ export default function StructuredData() {
           itemOffered: {
             "@type": "Product",
             name: "Perfumes para Hombres en Apartadó",
-            description: "Colección exclusiva de perfumes para hombres en Apartadó, Urabá y toda la región",
+            description: "Los mejores perfumes para hombres en Apartadó, Urabá y toda la región",
           },
         },
         {
@@ -118,7 +79,7 @@ export default function StructuredData() {
           itemOffered: {
             "@type": "Product",
             name: "Perfumes para Mujeres en Urabá",
-            description: "Colección exclusiva de perfumes para mujeres en Urabá, Apartadó y toda la región",
+            description: "Fragancias exclusivas para mujeres en Urabá, Apartadó y región",
           },
         },
         {
@@ -126,19 +87,27 @@ export default function StructuredData() {
           itemOffered: {
             "@type": "Product",
             name: "Perfumes Árabes en Apartadó",
-            description: "Fragancias árabes originales y exclusivas en Apartadó y Urabá",
+            description: "Perfumes árabes originales y exclusivos en Apartadó y Urabá",
           },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Product",
-            name: "Perfumes de Diseñador en Urabá",
-            description: "Perfumes de marcas de diseñador en Urabá, Apartadó y región",
-          },
-        },
+        }
       ],
     },
+    keywords: [
+      "perfumes en apartadó",
+      "perfumes en urabá", 
+      "perfumes apartadó antioquia",
+      "perfumes urabá antioquia",
+      "perfumes turbo antioquia",
+      "tienda perfumes apartadó",
+      "tienda perfumes urabá",
+      "perfumes de lujo apartadó",
+      "fragancias exclusivas urabá",
+      "perfumes árabes apartadó",
+      "perfumes originales urabá",
+      "perfumes importados apartadó",
+      "perfumes para hombres apartadó",
+      "perfumes para mujeres urabá"
+    ],
     sameAs: [
       "https://www.facebook.com/croxonoperfumes",
       "https://www.instagram.com/croxonoperfumes",
@@ -149,7 +118,7 @@ export default function StructuredData() {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(localStructuredData) }}
     />
   );
 }

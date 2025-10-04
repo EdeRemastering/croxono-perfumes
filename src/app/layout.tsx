@@ -4,6 +4,7 @@ import "./globals.css";
 import { CartProvider } from "@/lib/cart-context";
 import StructuredData from "@/components/StructuredData";
 import ProductStructuredData from "@/components/ProductStructuredData";
+import LocalSEO from "@/components/LocalSEO";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,12 +18,29 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Croxono Perfumes - Perfumes de Lujo Exclusivos | Envío Gratis",
+    default: "Perfumes en Apartadó y Urabá | Croxono Perfumes - Fragancias de Lujo",
     template: "%s | Croxono Perfumes",
   },
   description:
-    "Descubre nuestra colección exclusiva de perfumes de lujo. Fragancias únicas, envío gratis y atención personalizada. Los mejores perfumes para hombres y mujeres en Colombia.",
+    "🏪 Tienda de perfumes en Apartadó y Urabá. Perfumes de lujo originales, fragancias árabes exclusivas, envío gratis en la región. Los mejores perfumes para hombres y mujeres en Apartadó, Turbo y Urabá Antioquia.",
   keywords: [
+    "perfumes en apartadó",
+    "perfumes en urabá",
+    "perfumes apartadó antioquia",
+    "perfumes urabá antioquia",
+    "perfumes turbo antioquia",
+    "tienda perfumes apartadó",
+    "tienda perfumes urabá",
+    "perfumes de lujo apartadó",
+    "fragancias exclusivas urabá",
+    "perfumes árabes apartadó",
+    "perfumes originales urabá",
+    "perfumes importados apartadó",
+    "perfumes para hombres apartadó",
+    "perfumes para mujeres urabá",
+    "perfumes turbo",
+    "perfumes carepa",
+    "perfumes chigorodó",
     "perfumes de lujo",
     "fragancias exclusivas",
     "perfumes para hombres",
@@ -34,7 +52,6 @@ export const metadata: Metadata = {
     "perfumes Colombia",
     "perfumes Urabá",
     "perfumes Apartadó",
-    "perfumes Turbo",
     "perfumes árabes",
     "oud perfumes",
     "fragancias orientales",
@@ -76,16 +93,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_CO",
     url: "https://croxono-perfumes-4rnh.onrender.com",
-    title: "Croxono Perfumes - Perfumes de Lujo Exclusivos",
+    title: "Perfumes en Apartadó y Urabá | Croxono Perfumes - Fragancias de Lujo",
     description:
-      "Descubre nuestra colección exclusiva de perfumes de lujo. Fragancias únicas, envío gratis y atención personalizada.",
+      "🏪 Tienda de perfumes en Apartadó y Urabá. Perfumes de lujo originales, fragancias árabes exclusivas, envío gratis en la región. Los mejores perfumes para hombres y mujeres en Apartadó, Turbo y Urabá Antioquia.",
     siteName: "Croxono Perfumes",
     images: [
       {
         url: "/assets/hero-perfume.jpg",
         width: 1200,
         height: 630,
-        alt: "Croxono Perfumes - Colección de Perfumes de Lujo",
+        alt: "Perfumes en Apartadó y Urabá - Croxono Perfumes Colección de Lujo",
       },
     ],
   },
@@ -105,6 +122,7 @@ export default function RootLayout({
       <head>
         <StructuredData />
         <ProductStructuredData />
+        <LocalSEO />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}

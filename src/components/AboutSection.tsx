@@ -30,10 +30,10 @@ const AboutSection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Pasión por los perfumes de <span className="text-primary">élite</span>
+            Perfumes de <span className="text-primary">élite</span> en Apartadó y Urabá
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Croxono es una plataforma virtual dedicada a ayudarte a elegir tu perfume ideal mediante la asesoría confiable y de alta calidad en perfumes de lujo. Nacimos en 2024 con la visión de hacer accesible lo exclusivo, facilitando la adquisición de perfumes de alta gama como Árabes y diseñadores desde cualquier lugar ofreciendo precios asombrosos y asesoría profesional para que puedas conectar tu esencia ideal con el mundo.
+            Croxono es la plataforma virtual líder en <strong>perfumes en Apartadó</strong> y <strong>perfumes en Urabá</strong>, dedicada a ayudarte a elegir tu perfume ideal mediante asesoría confiable y de alta calidad en perfumes de lujo. Nacimos en 2024 con la visión de hacer accesible lo exclusivo en la región de Urabá Antioquia, facilitando la adquisición de perfumes de alta gama como árabes y diseñadores en Apartadó, Turbo, Carepa, Chigorodó, Necoclí y toda la región, ofreciendo precios asombrosos y asesoría profesional para que puedas conectar tu esencia ideal con el mundo.
           </p>
         </div>
 
