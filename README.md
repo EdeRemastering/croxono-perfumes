@@ -221,12 +221,6 @@ El proyecto incluye:
 - ✅ **Robots.txt** configurado
 - ✅ **Imágenes optimizadas** con Next.js Image
 
-### Core Web Vitals
-
-- 🚀 **LCP**: < 2.5s
-- ⚡ **FID**: < 100ms  
-- 📐 **CLS**: < 0.1
-
 ## 🤝 Contribución
 
 1. Fork el proyecto
@@ -234,18 +228,6 @@ El proyecto incluye:
 3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
-
-## 📄 Documentación Adicional
-
-- [Sistema de Compras](docs/SHOPPING_SYSTEM.md)
-- [Sistema de Temas](docs/THEME_SYSTEM.md)
-- [Guía de Imágenes](docs/IMAGE_GUIDE.md)
-
-## 📞 Contacto
-
-- **WhatsApp**: +57 320 3296712
-- **Email**: info@croxono.com
-- **Sitio Web**: [croxono-perfumes.vercel.app](https://croxono-perfumes.vercel.app)
 
 ## 📝 Licencia
 
@@ -255,5 +237,5 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 <div align="center">
   <p>Hecho con ❤️ para Croxono Perfumes</p>
-  <p>© 2024 Croxono Perfumes. Todos los derechos reservados.</p>
+  <p>© 2025 Croxono Perfumes. Todos los derechos reservados.</p>
 </div>
