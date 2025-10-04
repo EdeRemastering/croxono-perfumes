@@ -45,7 +45,7 @@ export const ladyPerfumes: LadyPerfume[] = [
   {
     id: 3,
     name: "Fakhar Rose",
-    price: "$100.000",
+    price: "$120.000",
     image: "https://fimgs.net/mdimg/perfume-thumbs/375x500.70466.2x.avif",
     description: "Floral intenso con rosas y vainilla.",
     notes: ["Pimienta Rosa", "Bergamota", "Rosa", "Jazmín", "Vainilla", "Ámbar"],

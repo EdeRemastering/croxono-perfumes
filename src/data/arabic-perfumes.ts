@@ -153,7 +153,7 @@ export const arabicPerfumes: ArabicPerfume[] = [
   {
     id: 10,
     name: "Arabians Tonka",
-    price: "$120.000",
+    price: "$100.000",
     image: "https://fimgs.net/mdimg/perfume-thumbs/375x500.57384.2x.avif",
     description: "Oriental vainilla con oud y haba tonka (unisex).",
     notes: ["Azafrán", "Bergamota", "Oud", "Rosa", "Haba Tonka", "Ámbar", "Almizcle"],

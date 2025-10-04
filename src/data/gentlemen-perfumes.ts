@@ -31,7 +31,7 @@ export const gentlemanPerfumes: GentlemanPerfume[] = [
   {
     id: 2,
     name: "Fakhar Black",
-    price: "$100.000",
+    price: "$120.000",
     image: "https://fimgs.net/mdimg/perfume-thumbs/375x500.70465.2x.avif",
     description: "Aromático especiado con salida frutal y base amaderada.",
     notes: ["Manzana", "Bergamota", "Jengibre", "Lavanda", "Haba Tonka", "Cedro"],
@@ -129,7 +129,7 @@ export const gentlemanPerfumes: GentlemanPerfume[] = [
   {
     id: 9,
     name: "Viking Cairo",
-    price: "$100.000",
+    price: "$120.000",
     image: "https://fimgs.net/mdimg/perfume-thumbs/375x500.103876.2x.avif",
     description: "Oriental amaderado masculino con rosas y especias.",
     notes: ["Limón", "Bergamota", "Rosa", "Jazmín", "Sándalo", "Pachulí", "Almizcle"],
